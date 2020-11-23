@@ -1,0 +1,10 @@
+.board {
+    width: 500px;
+    height: 500px;
+}
+
+.square {
+    border: 1px solid black;
+    width: 33%;
+    height: 33%;
+}
