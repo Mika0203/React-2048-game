@@ -10,17 +10,26 @@ class Square extends React.Component {
 class Board extends React.Component {
     render() {
         return <div className='board'>
-            <div>
+            <div className='row'>
                 <Square />
-                <Square />
-                <Square />
-            </div>
-            <div>
                 <Square />
                 <Square />
                 <Square />
             </div>
-            <div>
+            <div className='row'>
+                <Square />
+                <Square />
+                <Square />
+                <Square />
+            </div>
+            <div className='row'>
+                <Square />
+                <Square />
+                <Square />
+                <Square />
+            </div>
+            <div className='row'>
+                <Square />
                 <Square />
                 <Square />
                 <Square />
