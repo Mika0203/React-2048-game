@@ -27,6 +27,7 @@ class App extends React.Component {
 
     inputHandler = (e) => {
         let value = e.target.value
+        value = Math.max( Math.min(value, 15),1 );
         let col = [];
 
         for(let i = 0 ; i < value; i++){
